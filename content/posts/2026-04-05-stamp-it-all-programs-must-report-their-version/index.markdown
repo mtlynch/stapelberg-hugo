@@ -28,7 +28,7 @@ response.
 Every household appliance has incredibly detailed versioning! Consider this
 dishwasher:
 
-{{< img src="2026-04-04-feuermurmel-dishwasher-versioning.png" alt="a dishwasher, with many precise bits of version information" >}}
+{{< img src="2026-04-04-feuermurmel-dishwasher-versioning.jpg" alt="a dishwasher, with many precise bits of version information" >}}
 
 *(Thank you Feuermurmel for sending me this lovely example!)*
 
@@ -925,15 +925,15 @@ Here’s a full example of gokrazy/bull:
   /nix/store/z3y90ck0fp1wwd4scljffhwxcrxjhb9j-bull-unstable/bin/bull
 /nix/store/z3y90ck0fp1wwd4scljffhwxcrxjhb9j-bull-unstable/bin/bull: go1.26.1
         path    github.com/gokrazy/bull/cmd/bull
-        mod     github.com/gokrazy/bull (devel) 
-        dep     github.com/BurntSushi/toml      v1.4.1-0.20240526193622-a339e1f7089c    
-        dep     github.com/fsnotify/fsnotify    v1.8.0  
-        dep     github.com/google/renameio/v2   v2.0.2  
-        dep     github.com/yuin/goldmark        v1.7.8  
-        dep     go.abhg.dev/goldmark/wikilink   v0.5.0  
-        dep     golang.org/x/image      v0.23.0 
-        dep     golang.org/x/sync       v0.10.0 
-        dep     golang.org/x/sys        v0.28.0 
+        mod     github.com/gokrazy/bull (devel)
+        dep     github.com/BurntSushi/toml      v1.4.1-0.20240526193622-a339e1f7089c
+        dep     github.com/fsnotify/fsnotify    v1.8.0
+        dep     github.com/google/renameio/v2   v2.0.2
+        dep     github.com/yuin/goldmark        v1.7.8
+        dep     go.abhg.dev/goldmark/wikilink   v0.5.0
+        dep     golang.org/x/image      v0.23.0
+        dep     golang.org/x/sync       v0.10.0
+        dep     golang.org/x/sys        v0.28.0
         build   -buildmode=exe
         build   -compiler=gc
         build   -trimpath=true
